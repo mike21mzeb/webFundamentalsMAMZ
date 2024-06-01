@@ -1,0 +1,28 @@
+/* 
+<a href="#" class="link link--branded">
+  Link Text
+  <svg>..</svg>
+</a>
+*/
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  color: var(--neutral-900);
+  
+  font-size: var(--font-sm);
+  font-weight: 500;
+  line-height: var(--leading-5);
+  text-decoration: none; 
+}
+
+.link:hover {
+  /*text-decoration: underline;*/
+  color: var(--primary-hover);
+}
+
+.link--branded {
+  color: var(--primary);
+}

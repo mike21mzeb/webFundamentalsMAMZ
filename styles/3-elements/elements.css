@@ -1,0 +1,44 @@
+body {
+  font-family: var(--text);
+  color: var(--foreground);
+  background-color: var(--background);
+  font-size: var(--font-base);
+  line-height: var(--leading-6);
+  /*TODO recuperado del anterior
+  accent-color: var(--primary);*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading);
+}
+
+code {
+  font-family: var(--monospace);
+}
+
+hr {
+  margin-block: 48px;
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+ul {
+  /*list-style-type: none;*/
+  padding-left: 1.75rem;  
+}
+
+li {
+  padding-bottom: var(--spacing-0_5);
+  padding-top: var(--spacing-0_5);
+}
+
+:focus {
+  outline-offset: 3px;
+  outline-color: var(--ring);
+  outline-width: 2px;
+}
